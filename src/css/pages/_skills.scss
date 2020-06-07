@@ -1,0 +1,108 @@
+#skills {
+  display: block;
+  padding-top: 0px;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-image: no-repeat;
+  margin: 20px;
+  border: solid rgb(243, 241, 241);
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  position: relative;
+  height: 100vh;
+  display: block;
+  width: 97%;
+  height: 100%;
+  object-fit: contain;
+  // @include respondTo(sm) {
+  //   img {
+  //     display: block;
+  //     width: 100%;
+  //     height: 100%;
+  //     object-fit: contain;
+  //   }
+  // }
+
+  img:not(.bg) {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    position: absolute;
+  }
+
+  img.bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .skills-title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left: 44%;
+    top: 45%;
+    color: rgb(253, 253, 253);
+
+    font-size: 40px;
+  }
+
+  .htmlres {
+    transform: translate(28vh, -60px);
+  }
+
+  .cssres {
+    transform: translate(-27vh, -108px);
+  }
+  .jsres {
+    transform: translate(-43vh, 111px);
+  }
+  .sassres {
+    transform: translate(-21vh, 183px);
+  }
+  .figmares {
+    transform: translate(2vh, 302px);
+  }
+  .procreateres {
+    transform: translate(-51vh, -59px);
+  }
+  .illustratorres {
+    transform: translate(-26vh, 377px);
+  }
+  .photoshopres {
+    transform: translate(43vh, 90px);
+  }
+  .auth0res {
+    transform: translate(-56vh, -249px);
+  }
+  .awsres {
+    transform: translate(46vh, -206px);
+  }
+  .cres {
+    transform: translate(30vh, 348px);
+  }
+  .frescores {
+    transform: translate(-26vh, 377px);
+  }
+  .reduxres {
+    transform: translate(14vh, -347px);
+  }
+  .reactres {
+    transform: translate(-8vh, -288px);
+  }
+  .gitres {
+    transform: translate(25vh, -231px);
+  }
+  @include respondTo(xs) {
+    display: none;
+  }
+}

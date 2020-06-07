@@ -1,0 +1,139 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  @include respondToAbove(lg) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  img {
+    display: flex;
+    height: 100%;
+    width: 100px;
+
+    @include respondTo(xs) {
+      position: relative;
+      top: -31px;
+    }
+    @include respondToAbove(lg) {
+      height: 100%;
+      width: 100px;
+    }
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    text-decoration: none;
+    .hamburger-toggle {
+      visibility: hidden;
+      .hamburger-icon {
+        visibility: hidden;
+        font-size: 20px;
+      }
+    }
+    @include respondToAbove(md) {
+      .hamburger-toggle {
+        visibility: hidden;
+        .hamburger-icon {
+          visibility: hidden;
+          font-size: 20px;
+        }
+      }
+    }
+    @include respondTo(xs) {
+      flex-direction: column;
+      font-size: 1px;
+      text-align: justify;
+      visibility: hidden;
+      .navigation-bi ul li {
+        display: none;
+        font-size: 0px;
+      }
+      .hamburger-toggle {
+        .hamburger-icon {
+          visibility: visible;
+          font-size: 30px;
+          background-color: transparent;
+          border: none;
+          position: relative;
+          right: -105px;
+          top: 37px;
+          &:focus {
+            color: #14076e;
+          }
+        }
+      }
+    }
+    li {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-family: $font-family-quicksand;
+      font-weight: 600;
+      font-size: 21px;
+      color: color(accent);
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(255, 102, 110);
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+        transition: ease-in 0.3s;
+        font-weight: 200px;
+        transform: none;
+      }
+      @include respondToAbove(lg) {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+@include respondTo(xs) {
+  .sidebar {
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 700px;
+    z-index: 200;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      li {
+        color: color(navbar-li);
+        text-decoration: none;
+        font-size: 20px;
+        margin: 30px 0px;
+        margin-left: 10px;
+        &:hover,
+        &:active {
+          color: rgb(255, 102, 110);
+        }
+      }
+    }
+  }
+  .backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(61, 61, 61, 0.25);
+    z-index: 100;
+    top: 0;
+    left: 0;
+  }
+}

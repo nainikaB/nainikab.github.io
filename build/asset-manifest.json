@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c864b30b.chunk.css",
+    "main.js": "/static/js/main.b99cc9c9.chunk.js",
+    "main.js.map": "/static/js/main.b99cc9c9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3ce2ee87.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3ce2ee87.js.map",
+    "static/js/2.e1628213.chunk.js": "/static/js/2.e1628213.chunk.js",
+    "static/js/2.e1628213.chunk.js.map": "/static/js/2.e1628213.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.400f0a25ede07766c93fb1185711f027.js": "/precache-manifest.400f0a25ede07766c93fb1185711f027.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c864b30b.chunk.css.map": "/static/css/main.c864b30b.chunk.css.map",
+    "static/js/2.e1628213.chunk.js.LICENSE.txt": "/static/js/2.e1628213.chunk.js.LICENSE.txt",
+    "static/media/adobe-illustrator.png": "/static/media/adobe-illustrator.8de1187d.png",
+    "static/media/auth0.png": "/static/media/auth0.e694a556.png",
+    "static/media/c.png": "/static/media/c.fdfc6fd5.png",
+    "static/media/css.png": "/static/media/css.c9421be5.png",
+    "static/media/dribbble.png": "/static/media/dribbble.cfba3b68.png",
+    "static/media/figma.png": "/static/media/figma.830de336.png",
+    "static/media/home-pagee.png": "/static/media/home-pagee.c85972c7.png",
+    "static/media/html.png": "/static/media/html.a250ddbd.png",
+    "static/media/js.png": "/static/media/js.07e2a28c.png",
+    "static/media/me.png": "/static/media/me.4aec7a22.png",
+    "static/media/nainika-gdg.png": "/static/media/nainika-gdg.c1cd34eb.png",
+    "static/media/procreate.png": "/static/media/procreate.2712438b.png",
+    "static/media/main.scss": "/static/media/project4.08851008.jpg",
+    "static/media/react.png": "/static/media/react.fa984d22.png",
+    "static/media/redux.png": "/static/media/redux.ea42206d.png",
+    "static/media/rocket.png": "/static/media/rocket.d49ab4e9.png",
+    "static/media/sass.png": "/static/media/sass.cbf3f433.png",
+    "static/media/skills.png": "/static/media/skills.1fa0680b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ce2ee87.js",
+    "static/js/2.e1628213.chunk.js",
+    "static/css/main.c864b30b.chunk.css",
+    "static/js/main.b99cc9c9.chunk.js"
+  ]
+}
