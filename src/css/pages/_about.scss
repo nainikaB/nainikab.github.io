@@ -1,6 +1,6 @@
 #about {
   display: flex;
-  background-color: color(primary);
+  background-color: blueviolet;
 
   @include respondTo(xs) {
     display: block;
