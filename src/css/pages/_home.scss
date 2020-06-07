@@ -17,7 +17,9 @@
   @include respondTo(sm) {
     height: 70vh;
   }
-
+  @include respondTo(lg) {
+    height: 100vh;
+  }
   .home-section {
     width: 100%;
     display: flex;

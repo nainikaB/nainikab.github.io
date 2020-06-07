@@ -16,7 +16,7 @@
       @content;
     }
   } @else if $media== "lg" {
-    @media only screen and (min-width: $screen-lg-min) and (-webkit-min-device-pixel-ratio: 2) {
+    @media only screen and (min-width: $screen-lg-min) {
       @content;
     }
   }

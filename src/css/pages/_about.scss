@@ -1,6 +1,6 @@
 #about {
   display: flex;
-  background-color: blueviolet;
+  background-color: color(primary);
 
   @include respondTo(xs) {
     display: block;
@@ -39,7 +39,7 @@
         margin: 30px;
       }
       @include respondTo(lg) {
-        padding: 75px;
+        padding: 93px;
       }
       .img-about {
         height: 100vh;
@@ -113,8 +113,8 @@
         align-items: flex-start;
         position: relative;
         right: 34%;
-        @include respondToAbove(lg) {
-          right: 30%;
+        @include respondTo(lg) {
+          right: 2%;
         }
         @include respondTo(xs) {
           right: 2%;
@@ -122,8 +122,8 @@
         @include respondTo(sm) {
           right: 3%;
         }
-        @include respondToAbove(md) {
-          right: 23%;
+        @include respondTo(md) {
+          right: 2%;
         }
 
         .slider {

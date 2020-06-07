@@ -220,6 +220,12 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  #home {
+    height: 100vh;
+  }
+}
+
 #home .home-section {
   width: 100%;
   display: -webkit-box;
@@ -449,7 +455,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: blueviolet;
+  background-color: white;
 }
 
 @media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -521,9 +527,9 @@
   }
 }
 
-@media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 1200px) {
   #about .about-sections .section1 {
-    padding: 75px;
+    padding: 93px;
   }
 }
 
@@ -657,9 +663,9 @@
   right: 34%;
 }
 
-@media only screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 1200px) {
   #about .about-sections .section2 .slider-wrapper {
-    right: 30%;
+    right: 2%;
   }
 }
 
@@ -675,9 +681,9 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 1199px) and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
   #about .about-sections .section2 .slider-wrapper {
-    right: 23%;
+    right: 2%;
   }
 }
 
@@ -938,645 +944,714 @@
   }
 }
 
-@media only screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2) {
-  #responsive-skills-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 200vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: white;
-  }
-  #responsive-skills-screen .title-skills {
-    font-size: 19px;
-    font-family: "Quicksand", sans-serif;
-    color: #2e10ff;
-    text-align: center;
-    margin: 20px;
-  }
-  #responsive-skills-screen .subtitle-skills {
-    font-size: 17px;
-    font-family: "Quicksand", sans-serif;
-    color: #2e10ff;
-    text-align: center;
-    margin-top: 15px;
-  }
-  #responsive-skills-screen .front-skills {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #responsive-skills-screen .front-skills .htmlprogressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .front-skills .htmlprogressbar .html {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .front-skills .htmlprogressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .front-skills .htmlprogressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .front-skills .htmlprogressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .front-skills .cssprogressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .front-skills .cssprogressbar .css {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .front-skills .cssprogressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 30px;
-  }
-  #responsive-skills-screen .front-skills .cssprogressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .front-skills .cssprogressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .front-skills .sassprogressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .front-skills .sassprogressbar .sass {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .front-skills .sassprogressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .front-skills .sassprogressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .front-skills .sassprogressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .front-skills .jsprogressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .front-skills .jsprogressbar .js {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .front-skills .jsprogressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 30px;
-  }
-  #responsive-skills-screen .front-skills .jsprogressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .front-skills .jsprogressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .js-skills {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #responsive-skills-screen .js-skills .react-progressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .js-skills .react-progressbar .react {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .js-skills .react-progressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .js-skills .react-progressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .js-skills .react-progressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .js-skills .redux-progressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .js-skills .redux-progressbar .redux {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .js-skills .redux-progressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 30px;
-  }
-  #responsive-skills-screen .js-skills .redux-progressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .js-skills .redux-progressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .design-skills {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #responsive-skills-screen .design-skills .figma-progressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .design-skills .figma-progressbar .figma {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .design-skills .figma-progressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .design-skills .figma-progressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .design-skills .figma-progressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .design-skills .procreate-progressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .design-skills .procreate-progressbar .procreate {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .design-skills .procreate-progressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 30px;
-  }
-  #responsive-skills-screen .design-skills .procreate-progressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .design-skills .procreate-progressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .design-skills .photoshop-progressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .design-skills .photoshop-progressbar .photoshop {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .design-skills .photoshop-progressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 30px;
-  }
-  #responsive-skills-screen .design-skills .photoshop-progressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .design-skills .photoshop-progressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .design-skills .illustrator-progressbar {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #responsive-skills-screen .design-skills .illustrator-progressbar .illustrator {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 30%;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-  #responsive-skills-screen .design-skills .illustrator-progressbar .progressbar {
-    margin-top: 30px;
-    width: 70%;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .design-skills .illustrator-progressbar .progressbar .bar {
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    background: #e0e6e9;
-    border-radius: 30px;
-  }
-  #responsive-skills-screen .design-skills .illustrator-progressbar .progressbar .bar span {
-    position: absolute;
-    height: 22px;
-    background-color: #14076e;
-    border-radius: 30px;
-    margin-top: 4px;
-    margin-left: 3px;
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-  }
-  #responsive-skills-screen .learn-skills {
-    display: block;
-    width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  #responsive-skills-screen .learn-skills .auth-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .learn-skills .auth-text .auth0 {
-    width: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 15px;
-    margin-left: -10px;
-  }
-  #responsive-skills-screen .learn-skills .auth-text .text-skills {
-    width: 70%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 14px;
-    color: #2e10ff;
-  }
-  #responsive-skills-screen .learn-skills .aws-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .learn-skills .aws-text .aws {
-    width: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 15px;
-  }
-  #responsive-skills-screen .learn-skills .aws-text .text-skills {
-    width: 70%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 14px;
-    color: #2e10ff;
-  }
-  #responsive-skills-screen .learn-skills .c-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #responsive-skills-screen .learn-skills .c-text .c {
-    width: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 15px;
-    margin-left: -10px;
-  }
-  #responsive-skills-screen .learn-skills .c-text .text-skills {
-    width: 70%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    font-size: 14px;
-    color: #2e10ff;
-  }
+#responsive-skills-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
 }
 
-@media only screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 1200px) {
   #responsive-skills-screen {
     display: none;
   }
 }
 
-@media only screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+#responsive-skills-screen .title-skills {
+  font-size: 19px;
+  font-family: "Quicksand", sans-serif;
+  color: #2e10ff;
+  text-align: center;
+  margin: 20px;
+}
+
+#responsive-skills-screen .subtitle-skills {
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+  color: #2e10ff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#responsive-skills-screen .front-skills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#responsive-skills-screen .front-skills .htmlprogressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .front-skills .htmlprogressbar .html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .front-skills .htmlprogressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .front-skills .htmlprogressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .front-skills .htmlprogressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .front-skills .cssprogressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .front-skills .cssprogressbar .css {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .front-skills .cssprogressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+#responsive-skills-screen .front-skills .cssprogressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .front-skills .cssprogressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .front-skills .sassprogressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .front-skills .sassprogressbar .sass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .front-skills .sassprogressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .front-skills .sassprogressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .front-skills .sassprogressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .front-skills .jsprogressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .front-skills .jsprogressbar .js {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .front-skills .jsprogressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+#responsive-skills-screen .front-skills .jsprogressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .front-skills .jsprogressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .js-skills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#responsive-skills-screen .js-skills .react-progressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .js-skills .react-progressbar .react {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .js-skills .react-progressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .js-skills .react-progressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .js-skills .react-progressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .js-skills .redux-progressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .js-skills .redux-progressbar .redux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .js-skills .redux-progressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+#responsive-skills-screen .js-skills .redux-progressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .js-skills .redux-progressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .design-skills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#responsive-skills-screen .design-skills .figma-progressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .design-skills .figma-progressbar .figma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .design-skills .figma-progressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .design-skills .figma-progressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .design-skills .figma-progressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .design-skills .procreate-progressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .design-skills .procreate-progressbar .procreate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .design-skills .procreate-progressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+#responsive-skills-screen .design-skills .procreate-progressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .design-skills .procreate-progressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .design-skills .photoshop-progressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .design-skills .photoshop-progressbar .photoshop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .design-skills .photoshop-progressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+#responsive-skills-screen .design-skills .photoshop-progressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .design-skills .photoshop-progressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .design-skills .illustrator-progressbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#responsive-skills-screen .design-skills .illustrator-progressbar .illustrator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#responsive-skills-screen .design-skills .illustrator-progressbar .progressbar {
+  margin-top: 30px;
+  width: 70%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .design-skills .illustrator-progressbar .progressbar .bar {
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background: #e0e6e9;
+  border-radius: 30px;
+}
+
+#responsive-skills-screen .design-skills .illustrator-progressbar .progressbar .bar span {
+  position: absolute;
+  height: 22px;
+  background-color: #14076e;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+#responsive-skills-screen .learn-skills {
+  display: block;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#responsive-skills-screen .learn-skills .auth-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .learn-skills .auth-text .auth0 {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#responsive-skills-screen .learn-skills .auth-text .text-skills {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  color: #2e10ff;
+}
+
+#responsive-skills-screen .learn-skills .aws-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .learn-skills .aws-text .aws {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+#responsive-skills-screen .learn-skills .aws-text .text-skills {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  color: #2e10ff;
+}
+
+#responsive-skills-screen .learn-skills .c-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#responsive-skills-screen .learn-skills .c-text .c {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#responsive-skills-screen .learn-skills .c-text .text-skills {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 14px;
+  color: #2e10ff;
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+  #responsive-skills-screen {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
   #responsive-skills-screen {
     display: none;
   }
 }
 
-@media only screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 991px) and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   #responsive-skills-screen {
     display: none;
   }
