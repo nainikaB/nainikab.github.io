@@ -27,7 +27,7 @@ const Projects = () => {
               Built using React, Redux and Openweathermap API.
             </p>
             <button className="project-button">
-              <a href="https://github.com/nainikaB/fend-MyReads">
+              <a href="https://github.com/nainikaB/weather-app">
                 Click here to view source code
               </a>
             </button>

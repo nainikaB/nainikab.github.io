@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe01728b.chunk.css",
+    "main.css": "/static/css/main.50496440.chunk.css",
     "main.js": "/static/js/main.b99cc9c9.chunk.js",
     "main.js.map": "/static/js/main.b99cc9c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3ce2ee87.js",
@@ -8,9 +8,9 @@
     "static/js/2.e1628213.chunk.js": "/static/js/2.e1628213.chunk.js",
     "static/js/2.e1628213.chunk.js.map": "/static/js/2.e1628213.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.48dac33293c55055298a27b50bd8b0fc.js": "/precache-manifest.48dac33293c55055298a27b50bd8b0fc.js",
+    "precache-manifest.2e998d039e26f2af4d1b00d1cff8f973.js": "/precache-manifest.2e998d039e26f2af4d1b00d1cff8f973.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fe01728b.chunk.css.map": "/static/css/main.fe01728b.chunk.css.map",
+    "static/css/main.50496440.chunk.css.map": "/static/css/main.50496440.chunk.css.map",
     "static/js/2.e1628213.chunk.js.LICENSE.txt": "/static/js/2.e1628213.chunk.js.LICENSE.txt",
     "static/media/adobe-illustrator.png": "/static/media/adobe-illustrator.8de1187d.png",
     "static/media/auth0.png": "/static/media/auth0.e694a556.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ce2ee87.js",
     "static/js/2.e1628213.chunk.js",
-    "static/css/main.fe01728b.chunk.css",
+    "static/css/main.50496440.chunk.css",
     "static/js/main.b99cc9c9.chunk.js"
   ]
 }
