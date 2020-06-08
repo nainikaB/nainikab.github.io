@@ -24,24 +24,22 @@ const About = () => {
             </div>
             <div className="para-about">
               <p>
-                I am Nainika I am a Font-End Web Developer and Designer. I
-                graduated from Christ Univeristy with a degree in BBA amd
+                I am a front end web developer and a designer with a keen
+                interest in startups. I graduated with a degree in business and
                 specialisation in finance. But coming from a different
-                background hasn't deterred my determination to make it in this
+                background hasn’t deterred my determination to make it in this
                 industry that I have come to adore. It's like they say, when you
-                find your true calling there is nothing stopping you. That's
-                exactly what happened with me and I haven't looked back since! I
-                do understand that I am a work in progress, but if I eat sleep
-                code repeat for long enough, I'll get to where I want to be in
-                no time. From becoming a Google Udacity Scholar to a helping out
-                with Devfest, everything has made me want to be a part of this
-                industry even more and contribute in any way I can to help make
-                lives easier by creating memorable user interphases and
-                experinces. <br />I am an extremely extroverted, harworking,
-                creative and out of the box thinker, I am always pushing myself
-                to be better and do better, not just professionally but also as
-                a person. In my free time you can find me illustrating or
-                running after my six rescued doggos.
+                find your true calling there’s nothing stopping you. Now, I do
+                understand that I’m a work in progress but I always believe that
+                perseverance and true grit can outweigh anything. <br /> From
+                being a Google Udacity Scholar to an active member in WTM and
+                GDG, this industry has taught me the power of community and how
+                many people it can benefit from a collaborative learning
+                atmosphere.  I am an extremely extroverted, harworking, creative
+                and out of the box thinker, I’m always pushing myself to be
+                better and do better, not just professionally but also as a
+                person. In my free time you can find me illustrating or reading
+                about smart tech or running after my six doggos.
               </p>
             </div>
           </div>
