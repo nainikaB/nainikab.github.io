@@ -11,6 +11,7 @@ import auth0 from "../images/auth0.png";
 import c from "../images/c.png";
 import react from "../images/react.png";
 import redux from "../images/redux.png";
+import aws from "../images/aws.png";
 
 const ResponsiveSkills = () => {
   return (
@@ -185,7 +186,11 @@ const ResponsiveSkills = () => {
               <h3>Course ongoing on A Cloud Guru</h3>
             </div>
             <div className="aws">
-              {/* <img style={{ height: "100%", width: "90px" }} src={} alt="aws" /> */}
+              <img
+                style={{ height: "100%", width: "90px" }}
+                src={aws}
+                alt="aws"
+              />
             </div>
           </div>
           <div className="c-text">

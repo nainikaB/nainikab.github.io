@@ -153,7 +153,7 @@
           text-decoration: none;
           color: color(secondary-accent-color);
         }
-        &.hover {
+        &:hover {
           background-color: color(accent);
           color: color(primary);
           transition: ease-in 0.3s;
@@ -343,7 +343,7 @@
           text-decoration: none;
           color: rgb(8, 8, 8);
         }
-        &.hover {
+        &:hover {
           background-color: rgb(46, 16, 255);
           color: white;
           transition: ease-in 0.3s;
@@ -424,6 +424,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
+
       @include respondTo(xs) {
         width: 100%;
         position: absolute;
@@ -504,20 +505,22 @@
           top: 134px;
           left: 13px;
         }
+
         @include respondToAbove(lg) {
           font-size: 22px;
+        }
+        &:hover {
+          background-color: color(accent);
+          color: rgb(255, 255, 255);
+          transition: ease-in 0.3s;
         }
         a {
           text-decoration: none;
           color: color(secondary-accent-color);
         }
-        &.hover {
-          background-color: color(accent);
-          color: rgb(126, 103, 103);
-          transition: ease-in 0.3s;
-        }
       }
     }
+
     .project-pic {
       width: 45%;
       display: flex;
@@ -636,7 +639,8 @@
           text-align: center;
         }
         @include respondToAbove(lg) {
-          font-size: 30px;
+          font-size: 29px;
+          text-align: center;
         }
       }
       .project-para {
@@ -680,6 +684,11 @@
         border-radius: 30px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
         padding: 20px;
+        &:hover {
+          background-color: color(accent);
+          color: white;
+          transition: ease-in 0.3s;
+        }
 
         @include respondTo(xs) {
           font-size: 15px;
@@ -703,11 +712,6 @@
         a {
           text-decoration: none;
           color: rgb(8, 8, 8);
-        }
-        &.hover {
-          background-color: color(accent);
-          color: white;
-          transition: ease-in 0.3s;
         }
       }
     }

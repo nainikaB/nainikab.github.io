@@ -19,11 +19,12 @@
       padding: 35px;
       border: solid color(border);
       border-radius: 30px;
-      box-shadow: $box-shadow-about;
+      // box-shadow: $box-shadow-about;
       justify-content: center;
       align-items: center;
       background-color: color(secondary-accent-color);
       flex-direction: column;
+      // box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
       @include respondTo(xs) {
         width: 90%;
         margin: 30px 15px 30px 15px;
