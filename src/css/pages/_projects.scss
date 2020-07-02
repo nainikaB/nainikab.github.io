@@ -88,7 +88,7 @@
         @include respondTo(xs) {
           position: absolute;
           top: 20px;
-          left: 65px;
+          left: 74px;
           font-size: 18px;
         }
         @include respondToAbove(lg) {
@@ -423,7 +423,7 @@
       @include respondTo(xs) {
         width: 100%;
         position: absolute;
-        left: 0px;
+        left: -51px;
         top: 72px;
         justify-content: center;
         align-items: center;
