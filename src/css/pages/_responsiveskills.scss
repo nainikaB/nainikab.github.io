@@ -1,6 +1,6 @@
 #responsive-skills-screen {
   display: flex;
-  height: 210vh;
+  height: 220vh;
   flex-direction: column;
   background-color: white;
 
@@ -439,13 +439,13 @@
       }
     }
 
-    .aws-text {
+    .py-text {
       display: flex;
       width: 100%;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      .aws {
+      .py {
         width: 30%;
         display: flex;
         margin-top: 15px;

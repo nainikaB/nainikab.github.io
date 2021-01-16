@@ -5,13 +5,13 @@ import cssres from "../images/css-res.png";
 import jsres from "../images/js-res.png";
 import sassres from "../images/sass-res.png";
 import figmares from "../images/figma-res.png";
-import procreateres from "../images/procreate-res.png";
+import pythonres from "../images/pythonres.png";
 import illustratorres from "../images/illustrator-res.png";
-import photoshopres from "../images/photoshop-res.png";
+import tidyres from "../images/tidyres.png";
 import auth0res from "../images/auth0-res.png";
 import Rres from "../images/R_logo.png";
-import cres from "../images/c-res.png";
-import frescores from "../images/fresco-res.png";
+import typeres from "../images/typeres.png";
+import angularres from "../images/angularres.png";
 import reduxres from "../images/redux-res.png";
 import reactres from "../images/react-res.png";
 import gitres from "../images/git-res.png";
@@ -52,7 +52,7 @@ const Skills = () => {
           src={figmares}
           alt="figmares"
         />
-        <img className="procreateres" src={procreateres} alt="procreateres" />
+        <img className="procreateres" src={pythonres} alt="procreateres" />
         <img
           title="Intermediate:80/100%"
           className="illustratorres"
@@ -62,7 +62,7 @@ const Skills = () => {
         <img
           title="Intermediate:70/100%"
           className="photoshopres"
-          src={photoshopres}
+          src={tidyres}
           alt="photoshopres"
         />
         <img
@@ -73,15 +73,15 @@ const Skills = () => {
         />
         <img
           title="Basic:70/100%"
-          className="awsres"
+          className="py"
           src={Rres}
-          alt="awsres"
+          alt="pyres"
         />
-        <img title="Basic:30/100%" className="cres" src={cres} alt="cres" />
+        <img title="Basic:70/100%" className="cres" src={typeres} alt="cres" />
         <img
           title="Intermediate:70/100%"
           className="frescores"
-          src={frescores}
+          src={angularres}
           alt="frescores"
         />
         <img

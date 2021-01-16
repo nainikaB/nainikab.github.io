@@ -8,19 +8,34 @@ import procreate from "../images/procreate.png";
 import illustrator from "../images/adobe-illustrator.png";
 import photoshop from "../images/photoshop.jpeg";
 import auth0 from "../images/auth0.png";
-import c from "../images/c.png";
+import python from "../images/python.png";
 import react from "../images/react.png";
 import redux from "../images/redux.png";
 import Rres from "../images/R_logo.png";
-
+import typescript from "../images/typescript.png";
+import Angular from "../images/Angular.png";
 
 const ResponsiveSkills = () => {
   return (
     <div id="body">
       <div id="responsive-skills-screen">
         <h2 className="title-skills">My Skills</h2>
-        <h3 className="subtitle-skills">Front-End Web development </h3>
+        <h3 className="subtitle-skills"> </h3>
         <div className="front-skills">
+        <div className="htmlprogressbar">
+            <div className="html">
+              <img
+                style={{ height: "100%", width: "50px" }}
+                src={Rres}
+                alt="html"
+              />
+            </div>
+            <div className="progressbar">
+              <div className="bar">
+                <span style={{ width: "60%" }}>60%</span>
+              </div>
+            </div>
+          </div>
           <div className="htmlprogressbar">
             <div className="html">
               <img
@@ -77,6 +92,20 @@ const ResponsiveSkills = () => {
               />
             </div>
           </div>
+          <div className="jsprogressbar">
+            <div className="progressbar">
+              <div className="bar">
+                <span style={{ width: "65%" }}>65%</span>
+              </div>
+            </div>
+            <div className="js">
+              <img
+                style={{ height: "100%", width: "60px", marginLeft: "10px" }}
+                src={typescript}
+                alt="js"
+              />
+            </div>
+          </div>
         </div>
         <h3 className="subtitle-skills">Javascript Frameworks and Libraries</h3>
         <div className="js-skills">
@@ -91,6 +120,20 @@ const ResponsiveSkills = () => {
             <div className="progressbar">
               <div className="bar">
                 <span style={{ width: "60%" }}>60%</span>
+              </div>
+            </div>
+          </div>
+          <div className="react-progressbar">
+            <div className="react">
+              <img
+                style={{ height: "100%", width: "70px" }}
+                src={Angular}
+                alt="react"
+              />
+            </div>
+            <div className="progressbar">
+              <div className="bar">
+                <span style={{ width: "55%" }}>55%</span>
               </div>
             </div>
           </div>
@@ -179,29 +222,22 @@ const ResponsiveSkills = () => {
               />
             </div>
             <div className="text-skills">
-              <h3>Course ongoing on Pluralsight</h3>
-            </div>
-          </div>
-          <div className="aws-text">
-            <div className="text-skills">
               <h3>Course is complete</h3>
             </div>
-            <div className="aws">
+          </div>
+          <div className="py-text">
+            <div className="text-skills">
+              <h3 style={{marginLeft: "40px"}}>Course is is ongoing</h3>
+            </div>
+            <div className="py">
               <img
-                style={{ height: "100%", width: "90px" }}
-                src={Rres}
-                alt="aws"
+                style={{ height: "100%", width: "60px" , marginLeft: "-10px"}}
+                src={python}
+                alt="python"
               />
             </div>
           </div>
-          <div className="c-text">
-            <div className="c">
-              <img style={{ height: "100%", width: "70px" }} src={c} alt="c" />
-            </div>
-            <div className="text-skills">
-              <h3>Course ongoing on EDX</h3>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
