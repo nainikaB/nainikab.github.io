@@ -11,7 +11,8 @@ import auth0 from "../images/auth0.png";
 import c from "../images/c.png";
 import react from "../images/react.png";
 import redux from "../images/redux.png";
-import aws from "../images/aws.png";
+import Rres from "../images/R_logo.png";
+
 
 const ResponsiveSkills = () => {
   return (
@@ -183,12 +184,12 @@ const ResponsiveSkills = () => {
           </div>
           <div className="aws-text">
             <div className="text-skills">
-              <h3>Course ongoing on A Cloud Guru</h3>
+              <h3>Course is complete</h3>
             </div>
             <div className="aws">
               <img
                 style={{ height: "100%", width: "90px" }}
-                src={aws}
+                src={Rres}
                 alt="aws"
               />
             </div>

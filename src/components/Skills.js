@@ -9,7 +9,7 @@ import procreateres from "../images/procreate-res.png";
 import illustratorres from "../images/illustrator-res.png";
 import photoshopres from "../images/photoshop-res.png";
 import auth0res from "../images/auth0-res.png";
-import awsres from "../images/aws-res.png";
+import Rres from "../images/R_logo.png";
 import cres from "../images/c-res.png";
 import frescores from "../images/fresco-res.png";
 import reduxres from "../images/redux-res.png";
@@ -72,9 +72,9 @@ const Skills = () => {
           alt="auth0res"
         />
         <img
-          title="Basic:40/100%"
+          title="Basic:70/100%"
           className="awsres"
-          src={awsres}
+          src={Rres}
           alt="awsres"
         />
         <img title="Basic:30/100%" className="cres" src={cres} alt="cres" />

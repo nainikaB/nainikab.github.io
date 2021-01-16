@@ -84,7 +84,7 @@
         }
         img {
           height: 100%;
-          width: auto;
+          width: 180px;
           border: none;
 
           @include respondTo(xs) {

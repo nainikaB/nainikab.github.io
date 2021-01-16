@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className="para-about">
               <p>
-                I am a front end web developer and a designer with a keen
+                I am a front end web developer turned Data Analyst with a keen
                 interest in startups. I graduated with a degree in business and
                 specialisation in finance. But coming from a different
                 background hasn’t deterred my determination to make it in this
