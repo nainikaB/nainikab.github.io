@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf99bc7019be0a28945af0bef3e518cd",
+    "revision": "33ba8258a1f004735752788ffdfa73d4",
     "url": "/index.html"
   },
   {
-    "revision": "044fd326737905d80e8e",
-    "url": "/static/css/main.3a5fab78.chunk.css"
+    "revision": "8db73c60ca257db44219",
+    "url": "/static/css/main.2effcb61.chunk.css"
   },
   {
-    "revision": "dac882929ec6c8765522",
-    "url": "/static/js/2.7c40aad1.chunk.js"
+    "revision": "feb90f96cca49c573b6e",
+    "url": "/static/js/2.cedf9b20.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.7c40aad1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cedf9b20.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "044fd326737905d80e8e",
-    "url": "/static/js/main.b0b5b44e.chunk.js"
+    "revision": "8db73c60ca257db44219",
+    "url": "/static/js/main.29147568.chunk.js"
   },
   {
     "revision": "51ff1df8d02dd786cb92",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e694a5567ab88c62e268611074fc9e13",
     "url": "/static/media/auth0.e694a556.png"
-  },
-  {
-    "revision": "fdfc6fd5bef8cc4b65e853d032c401a2",
-    "url": "/static/media/c.fdfc6fd5.png"
   },
   {
     "revision": "c9421be52fe48fdf04839b53f8e9f1d4",
@@ -92,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/project4.08851008.jpg"
   },
   {
+    "revision": "dc199ecc9e90e4bc7e9ed9b31e3c2b5f",
+    "url": "/static/media/python.dc199ecc.png"
+  },
+  {
     "revision": "fa984d222b7ecf7e1517de0a361ad0ca",
     "url": "/static/media/react.fa984d22.png"
   },
@@ -110,5 +110,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1fa0680b67d31a5c3591f316fd2206df",
     "url": "/static/media/skills.1fa0680b.png"
+  },
+  {
+    "revision": "38321ebd3736b388c63a0acc9e206782",
+    "url": "/static/media/tidyres.38321ebd.png"
+  },
+  {
+    "revision": "cf2eeeb829610bc029776cdab2b1f3de",
+    "url": "/static/media/typescript.cf2eeeb8.png"
   }
 ]);
